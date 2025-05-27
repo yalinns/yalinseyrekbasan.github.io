@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yalın's Homepage</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    img { width: 200px; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Personal Homepage</h1>
+  
+  <img src="your-photo.jpg" alt="Photo of Me">
+
+  <h2>About Me</h2>
+  <p>Hello! I'm Yalın, a student of Information Systems Engineering. I’m passionate about technology, data, and AI-driven systems.</p>
+
+  <h2>Resume</h2>
+  <ul>
+    <li>📚 Education: XYZ University</li>
+    <li>💻 Skills: Python, HTML/CSS, SQL, JavaScript</li>
+    <li>📈 Projects: AI Campus Navigation System</li>
+  </ul>
+
+  <h2>Hobbies</h2>
+  <ul>
+    <li>🎵 Playing guitar</li>
+    <li>🎮 Gaming</li>
+    <li>📸 Photography</li>
+  </ul>
+
+  <h2>Professional Interests</h2>
+  <p>I'm interested in data science, AI, and smart systems that solve real-world problems.</p>
+
+  <p>📧 Contact me at: your-email@example.com</p>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Survey Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 40px;
+    }
+
+    form {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      width: 500px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    fieldset {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 15px;
+    }
+
+    legend {
+      font-weight: bold;
+    }
+
+    label {
+      display: block;
+      margin: 8px 0 4px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      padding: 10px 20px;
+      margin-right: 10px;
+      border: none;
+      background-color: #0066cc;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+      background-color: #004999;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Music Survey</h1>
+  <form action="http://www.uyar.com/teaching/ecc006/2017spring/login.php" method="post">
+    
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="comments">What kind of music do you like and why?</label>
+    <textarea id="comments" name="comments" rows="3" cols="60"></textarea>
+
+    <fieldset>
+      <legend>Preferred Listening Method</legend>
+      <label><input type="radio" name="listening" value="streaming"> Streaming</label>
+      <label><input type="radio" name="listening" value="radio"> Radio</label>
+      <label><input type="radio" name="listening" value="vinyl"> Vinyl</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Favorite Music Genres</legend>
+      <label><input type="checkbox" name="genre[]" value="rock"> Rock</label>
+      <label><input type="checkbox" name="genre[]" value="pop"> Pop</label>
+      <label><input type="checkbox" name="genre[]" value="jazz"> Jazz</label>
+    </fieldset>
+
+    <label for="artist">Favorite Artist:</label>
+    <select name="artist" id="artist" size="3">
+      <option value="taylorswift">Taylor Swift</option>
+      <option value="drake">Drake</option>
+      <option value="tarkan">Tarkan</option>
+      <option value="adele">Adele</option>
+    </select>
+
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+  </form>
+</body>
+</html>
